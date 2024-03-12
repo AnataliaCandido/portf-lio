@@ -1,0 +1,84 @@
+body {
+    --gold: #FFde59;
+    font-weight: "Barlow", sans-serif;
+   /* height: 4000px;*/
+}
+.nav-link:hover{
+    border-bottom: solid 2px var(--gold);
+}
+
+.banner-1{
+    background-image: url(./assets/Desktop/banner-Desktop.jpg);
+}
+.banners{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banners-titulo{
+    --bs-bg-opacity: .5;
+}
+.banner-2{
+    background-image: url(./assets/Desktop/banner2-desktop.png);
+}
+.banners-2{
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-body{
+    background-color: #1b1b1a;
+    width: 350px;
+}
+.card-body h3{
+    color: white; 
+}
+
+.habilidade-body{
+    padding: 10vh;
+}
+.habilidade-img{
+    width: 70px;
+    padding: 10px;
+}
+.contato{
+    background-color: #0c0c0c;
+    padding: 3vh;
+}
+
+.contato-body{
+    display: flex;
+    justify-content:space-between;
+}
+
+.bi{
+    font-size: 40px;
+    color: white; 
+}
+
+.card-footer{
+    width: 18rem;
+    background-color: #0c0c0c;
+    margin: 20px;
+    align-content: center;
+}
+.card-footer a{
+    text-decoration: none;
+}
+
+.card-footer-title{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+}
+
+[data-bs-theme="dark"]{
+    color: white;
+}

@@ -50,7 +50,7 @@ body {
 }
 .contato{
     background-color: #0c0c0c;
-    padding: 3vh;
+    padding: 2vh;
 }
 
 .contato-body{
@@ -59,14 +59,14 @@ body {
 }
 
 .bi{
-    font-size: 40px;
+    font-size: 30px;
     color: white; 
 }
 
 .card-footer{
-    width: 18rem;
+    width: 15rem;
     background-color: #0c0c0c;
-    margin: 20px;
+    margin: 18px;
     align-content: center;
 }
 .card-footer a{
@@ -74,7 +74,7 @@ body {
 }
 
 .card-footer-title{
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     padding-top: 10px;
 }
